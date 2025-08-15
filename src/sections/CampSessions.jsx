@@ -45,7 +45,7 @@ const CampSessions = () => {
         {
             icon: "🏕️",
             title: "自然豊かな環境",
-            description: "埼玉県の美しい自然の中で、日常を離れた特別な体験"
+            description: "関東の美しい自然の中で、日常を離れた特別な体験"
         },
         {
             icon: "👥",
@@ -79,7 +79,7 @@ const CampSessions = () => {
                         2泊3日のスケジュール
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        埼玉県の自然豊かな環境で、集中プログラムであなたの可能性を最大限に引き出します
+                        関東の自然豊かな環境で、集中プログラムであなたの可能性を最大限に引き出します
                     </p>
                 </motion.div>
 
@@ -181,7 +181,7 @@ const CampSessions = () => {
                             </div>
                             <div>
                                 <h4 className="font-semibold text-gray-800 mb-2">🍽️ 食事</h4>
-                                <p className="text-gray-600 mb-4">5食付き（夕・朝・昼・夕・朝・昼）</p>
+                                <p className="text-gray-600 mb-4">6食付き（夕・朝・昼・夕・朝・昼）</p>
                             </div>
                             <div>
                                 <h4 className="font-semibold text-gray-800 mb-2">🎒 持ち物</h4>
