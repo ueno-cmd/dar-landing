@@ -6,11 +6,13 @@ const CampSessions = () => {
             day: "1日目",
             time: "到着〜夕方",
             activities: [
-                {time: "14:00", activity: "チェックイン・受付", icon: "🏠"},
-                {time: "15:00", activity: "オリエンテーション", icon: "👋"},
-                {time: "16:00", activity: "自己理解ワークショップ（前半）", icon: "🧠"},
-                {time: "18:00", activity: "夕食・交流タイム", icon: "🍽️"},
-                {time: "20:00", activity: "キャンプファイヤー", icon: "🔥"}
+                {time: "13:00", activity: "集合・受付", icon: "🏠"},
+                {time: "14:00", activity: "アイスブレイク", icon: "👋"},
+                {time: "15:00", activity: "ガイダンス・班発表", icon: "📋"},
+                {time: "16:00", activity: "一緒に料理タイム", icon: "👨‍🍳"},
+                {time: "17:00", activity: "夕食", icon: "🍽️"},
+                {time: "20:00", activity: "人生のコンセプト・サービス作り会", icon: "💡"},
+                {time: "22:00", activity: "就寝", icon: "🛏️"}
             ],
             color: "from-blue-400 to-blue-600"
         },
@@ -18,12 +20,16 @@ const CampSessions = () => {
             day: "2日目",
             time: "朝〜夕方",
             activities: [
-                {time: "09:00", activity: "朝食・朝の散歩", icon: "🌅"},
-                {time: "10:00", activity: "自己理解ワークショップ（後半）", icon: "💡"},
-                {time: "14:00", activity: "価値提供の商品作成", icon: "🎨"},
-                {time: "16:00", activity: "商品発表・実践", icon: "📢"},
-                {time: "18:00", activity: "夕食・振り返り", icon: "🍽️"},
-                {time: "20:00", activity: "シェア会", icon: "💬"}
+                {time: "5:00", activity: "朝散歩", icon: "🌅"},
+                {time: "6:00", activity: "やりたい事動画撮影", icon: "📹"},
+                {time: "7:00", activity: "アーティストデート予定立て", icon: "📝"},
+                {time: "7:30", activity: "朝食", icon: "🍽️"},
+                {time: "9:00", activity: "人生のコンセプト・哲学カフェ", icon: "🧠"},
+                {time: "12:00", activity: "昼食", icon: "🍽️"},
+                {time: "13:00", activity: "サービス仕合", icon: "🎨"},
+                {time: "17:30", activity: "夕食", icon: "🍽️"},
+                {time: "19:00", activity: "キャンプファイヤー", icon: "🔥"},
+                {time: "22:00", activity: "就寝", icon: "🛏️"}
             ],
             color: "from-green-400 to-green-600"
         },
@@ -31,11 +37,16 @@ const CampSessions = () => {
             day: "3日目",
             time: "朝〜午後",
             activities: [
-                {time: "09:00", activity: "朝食・最終準備", icon: "🌅"},
-                {time: "10:00", activity: "最終シェア会", icon: "🎯"},
-                {time: "11:30", activity: "未来への行動計画作成", icon: "📋"},
-                {time: "12:30", activity: "昼食・お疲れ様会", icon: "🎉"},
-                {time: "14:00", activity: "チェックアウト・解散", icon: "👋"}
+                {time: "5:00", activity: "朝散歩", icon: "🌅"},
+                {time: "6:00", activity: "やりたい事動画撮影", icon: "📹"},
+                {time: "7:00", activity: "アーティストデート予定立て", icon: "📝"},
+                {time: "7:30", activity: "朝食", icon: "🍽️"},
+                {time: "8:30", activity: "部屋点検", icon: "🏠"},
+                {time: "9:00", activity: "班シェア会", icon: "💬"},
+                {time: "10:00", activity: "全体シェア会", icon: "🎯"},
+                {time: "11:00", activity: "集合写真・送会", icon: "📸"},
+                {time: "12:00", activity: "昼食", icon: "🍽️"},
+                {time: "13:00", activity: "解散", icon: "👋"}
             ],
             color: "from-orange-400 to-orange-600"
         }
@@ -189,6 +200,9 @@ const CampSessions = () => {
                                 </p>
                             </div>
                         </div>
+                        <p className="text-sm text-gray-500 mt-6 text-center">
+                            ※内容は必要に応じて変わる可能性があります。
+                        </p>
                     </div>
                 </motion.div>
             </div>

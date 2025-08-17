@@ -3,24 +3,24 @@ import {motion} from 'framer-motion'
 const Problem = () => {
     const problems = [
         {
-            emoji: "😰",
-            title: "将来への不安",
-            description: "このままでいいのか、何をすべきかわからない"
-        },
-        {
-            emoji: "🔄",
-            title: "繰り返す日々",
-            description: "同じような毎日の繰り返しで成長を感じられない"
+            emoji: "🔍",
+            title: "自分らしさ迷子",
+            description: "日々の忙しさの中で「本当の自分」や「生き方の軸」を見失いかけている。"
         },
         {
             emoji: "💭",
-            title: "過去への執着",
-            description: "過去の失敗や後悔が今の行動を妨げている"
+            title: "言葉にならない違和感",
+            description: "周囲に合わせて生きているけれど、どこかで「このままでいいのか」と感じている。"
         },
         {
-            emoji: "🎯",
-            title: "目標の不明確",
-            description: "やりたいことはあるけど、具体的な道筋が見えない"
+            emoji: "🤝",
+            title: "つながりの質に飢えている",
+            description: "人と関わる仕事をしているけれど、もっと深い対話や本質的なつながりを求めている。"
+        },
+        {
+            emoji: "🌌",
+            title: "地に足のついたスピリチュアルを探している",
+            description: "哲学やスピリチュアルに惹かれるけれど、抽象的すぎる世界には馴染めない。"
         }
     ]
 
@@ -66,20 +66,43 @@ const Problem = () => {
                 </div>
 
                 <motion.div
-                    className="text-center mt-16"
+                    className="bg-white rounded-3xl p-8 md:p-12 mt-16 shadow-lg"
                     initial={{opacity: 0, y: 20}}
                     whileInView={{opacity: 1, y: 0}}
                     transition={{duration: 0.8, delay: 0.4}}
                     viewport={{once: true}}
                 >
-                    <p className="text-2xl font-medium text-gray-800 mb-4">
-                        でも、大丈夫。
-                    </p>
-                    <p className="text-xl text-gray-600">
-                        DARプログラムがあなたの人生を変える
-                        <span className="text-orange-600 font-semibold">きっかけ</span>
-                        をお届けします。
-                    </p>
+                    <div className="text-center mb-8">
+                        <h3 className="text-3xl font-bold text-gray-900 mb-4">
+                            DARは、そんなあなたを支えます
+                        </h3>
+                        <p className="text-lg text-gray-600">
+                            それぞれの悩みに寄り添い、あなたらしい答えを見つけるお手伝いをします
+                        </p>
+                    </div>
+                    
+                    <div className="grid md:grid-cols-2 gap-8 text-left">
+                        <div className="space-y-6">
+                            <div>
+                                <p className="text-gray-800 font-medium mb-2">🔍 自分らしさ迷子</p>
+                                <p className="text-gray-600 text-sm">静かな問いと対話を通して、あなたの"内なる声"をそっと拾い上げます。</p>
+                            </div>
+                            <div>
+                                <p className="text-gray-800 font-medium mb-2">💭 言葉にならない違和感</p>
+                                <p className="text-gray-600 text-sm">違和感を否定せず、言葉にならない気持ちに居場所をつくります。</p>
+                            </div>
+                        </div>
+                        <div className="space-y-6">
+                            <div>
+                                <p className="text-gray-800 font-medium mb-2">🤝 つながりの質に飢えている</p>
+                                <p className="text-gray-600 text-sm">表面的な交流を超えて、共鳴と変容を生む場づくりを体験できます。</p>
+                            </div>
+                            <div>
+                                <p className="text-gray-800 font-medium mb-2">🌌 地に足のついたスピリチュアルを探している</p>
+                                <p className="text-gray-600 text-sm">詩的でありながら実践的。あなたの感性に寄り添いながら、意味を編み直します。</p>
+                            </div>
+                        </div>
+                    </div>
                 </motion.div>
             </div>
         </section>
